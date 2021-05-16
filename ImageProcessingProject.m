@@ -2,7 +2,7 @@
 % Input : mentalHealthImage.jpg
 % Output : text in image + text to speech conversion
 
-colorImage = imread('WELCOME.jpg');
+colorImage = imread('spotify.jpg');
 Image = rgb2gray(colorImage);
 
 % Detect MSER regions.
